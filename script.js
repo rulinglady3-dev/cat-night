@@ -125,15 +125,18 @@ function updateHeart() {
 
     }
 
-    if (count >= heart.length) {
+    if (count >= heart.length * 0.75) {
 
-        finished = true;
+    yu.style.opacity = 1;
 
-        yu.style.opacity = 1;
+}
 
-    }
+if (count >= heart.length) {
 
-} 
+    finished = true;
+
+}
+
 // ======================================================
 // LOVE HEART
 // Bölüm 3
